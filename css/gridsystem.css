@@ -1,0 +1,188 @@
+
+
+body{
+	margin: 0;
+	padding: 0;
+}
+/*img{
+	pointer-events: none;
+	position: fixed;
+	background-repeat: no-repeat;
+	z-index: 100;
+	opacity: 0.7;
+}*/
+
+.topDiv,
+.rightDiv,
+.bottomDiv,
+.leftDiv{
+	position: fixed;
+	background-color: #000;
+	z-index: 10000;
+	opacity: 0.5;
+}
+.topDiv{
+	width: 1280px;
+	height: 122.5px;
+	top: 0;
+	/*position: fixed;*/
+	/*background-color: pink;*/
+	/*float: left;*/
+	/*z-index: 10000;*/
+}
+.rightDiv{
+	width: 319.5px;
+	height: 481px;
+	right: 0;
+	top: 122.5px;
+	/*position: fixed;*/
+	/*background-color: purple;*/
+	/*float: right;*/
+	/*z-index: 10000;*/
+}
+.leftDiv{
+	width: 319.5px;
+	height: 481px;
+	left: 0;
+	top: 122.5px;
+	/*position: fixed;*/
+	/*background-color: beige;*/
+	/*float: left;*/
+	/*z-index: 10000;*/
+}
+.bottomDiv{
+	width: 1280px;
+	height: 122.5px;
+	bottom: 0;
+	/*position: fixed;*/
+	/*background-color: green;*/
+	/*float: left;*/
+	/*z-index: 10000;*/
+}
+
+
+
+
+.menuUp{
+	width: 641px;
+	height: 40px;
+	background-color: red;
+	position: fixed;
+	top: 123px;
+	left: 320px;
+	margin: 0;
+	padding: 0;
+	z-index: 11;
+}
+.boxInMenuUp,
+.boxInMenuUpBlack{
+	float: left;
+	width: 39px;
+	height: 40px;
+	border-right: 1px solid #000;
+	z-index: 1000;
+}
+.boxInMenuUp{
+	background-color: gray;
+}
+.boxInMenuUpBlack{
+	background-color: black;
+}
+.boxInMenuUpBlack:nth-child(1){
+	border-left: 1px solid #000;
+}
+.menuSide{
+	width: 40px;
+	height: 481px;
+	background-color: yellow;
+	position: fixed;
+	top: 123px;
+	left: 320px;
+	z-index: 11000;
+}
+.boxInMenuSide,
+.boxInMenuSideBlack{
+	float: left;
+	width: 40px;
+	height: 39px;
+	border-bottom: 1px solid #000;
+	background-color: gray;
+	z-index: 1000;
+}
+.boxInMenuSideBlack{
+	background-color: black;
+}
+.boxInMenuSideBlack:nth-child(1){
+	border-top: 1px solid #000;
+}
+
+
+
+
+.outer_div{
+	/*border: 1px solid red;*/
+	width: 1601px;
+	height: 1601px;
+}
+.inner_div{
+	position: relative;
+	background-color: #336699;
+	float: left;
+	width: 39px;
+	height: 39px;
+	border-top: 1px solid #000;
+	border-left: 1px solid #000;
+	z-index: 10;
+}
+.inner_div:nth-last-of-type(-n+40){
+    border-bottom: 1px solid #000;
+}
+.inner_div:nth-child(40n){
+	border-right: 1px solid #000;
+}
+.inner_div:hover{
+	background-color: #538cc6;
+}
+
+.inner_div.marked{ 
+	background-color: #00cc00; 
+}
+.markedSlide{ 
+	background-color: red; 
+}
+
+.slideButton{
+	width: 90%;
+	height: 40%;
+	top: 1px;
+	/*background-color: yellow;*/
+	/*text-align: center;*/
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
