@@ -17,8 +17,12 @@ $('.inner_div').click(function(){
 });
 
 $('.boxInMenuUp').click(function(){
-	$('.slideButton').toggleClass("markedSlide");
+	$(this).toggleClass("markedSlide");
 });
+
+// $('.boxInMenuUp').click(function(){
+// $('.slideButton').toggleClass("markedSlide");
+// });
 
 // $("div").mouseup(function(){
 //     $(this).after("<p style='color:green;'>Mouse button released.</p>");

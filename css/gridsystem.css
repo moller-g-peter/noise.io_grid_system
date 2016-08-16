@@ -3,6 +3,7 @@
 body{
 	margin: 0;
 	padding: 0;
+	background-color: black;
 }
 /*img{
 	pointer-events: none;
@@ -122,7 +123,12 @@ body{
 .outer_div{
 	/*border: 1px solid red;*/
 	width: 1601px;
-	height: 1601px;
+	/*height: 1601px;*/
+	margin: 163px 0 0 360px;
+	padding-right: 100px;
+	/*margin-top: 163px;
+	margin-left: 360px;
+	margin-bottom: 122px;*/
 }
 .inner_div{
 	position: relative;
@@ -136,21 +142,20 @@ body{
 }
 .inner_div:nth-last-of-type(-n+40){
     border-bottom: 1px solid #000;
+    margin-bottom: 122px;
 }
 .inner_div:nth-child(40n){
-	border-right: 1px solid #000;
+	/*border-right: 1px solid #000;*/
 }
 .inner_div:hover{
 	background-color: #538cc6;
 }
-
 .inner_div.marked{ 
 	background-color: #00cc00; 
 }
 .markedSlide{ 
 	background-color: red; 
 }
-
 .slideButton{
 	width: 90%;
 	height: 40%;
