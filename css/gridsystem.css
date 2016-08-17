@@ -123,8 +123,9 @@ body{
 .outer_div{
 	/*border: 1px solid red;*/
 	width: 1601px;
+	padding-right: 100px;
 	/*height: 1601px;*/
-	margin: 163px 0 0 360px;
+	margin: 163px 360px;
 	padding-right: 100px;
 	/*margin-top: 163px;
 	margin-left: 360px;
@@ -139,6 +140,7 @@ body{
 	border-top: 1px solid #000;
 	border-left: 1px solid #000;
 	z-index: 10;
+	/*margin-right: 100px;*/
 }
 .inner_div:nth-last-of-type(-n+40){
     border-bottom: 1px solid #000;
@@ -164,6 +166,11 @@ body{
 	/*text-align: center;*/
 	margin: 0 auto;
 }
+/*.marginRight{
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+}*/
 
 
 
